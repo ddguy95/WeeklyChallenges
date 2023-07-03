@@ -41,7 +41,7 @@ namespace ChallengesWithTestsMark8
             {
                 return number1;
             }
-            else if (number2 < number1)
+            else 
             {
                 return number2;
             }
@@ -64,7 +64,7 @@ namespace ChallengesWithTestsMark8
             }
             else
             {
-                return $"Hello {nameOfPerson}!";
+                return $"Hello, {nameOfPerson}!";
             }
             return string.IsNullOrEmpty(nameOfPerson) ? "Hello!" : $"Hello, {nameOfPerson}!";
                 //throw new NotImplementedException();
@@ -72,7 +72,7 @@ namespace ChallengesWithTestsMark8
        
         public string GetHey()
         {
-            return "Hey!";
+            return "HEY!";
             throw new NotImplementedException();
         }
     }
